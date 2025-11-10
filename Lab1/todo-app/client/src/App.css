@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+input {
+  padding: 10px;
+  margin-right: 10px;
+  width: 200px;
+}
+button {
+  padding: 10px;
+  cursor: pointer;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}

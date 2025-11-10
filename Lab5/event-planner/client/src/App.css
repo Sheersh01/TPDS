@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom, #e0eafc, #cfdef3);
+  min-height: 100vh;
+}
+
+h1 {
+  color: #2c3e50;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.event-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background: #e67e22;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #d35400;
+}
+
+.filter {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.events {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.event-card {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+}
+
+.event-card h3 {
+  margin: 0;
+  color: #2c3e50;
+}
+
+.event-card p {
+  margin: 5px 0;
+  color: #7f8c8d;
+}

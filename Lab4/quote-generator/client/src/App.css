@@ -1,0 +1,78 @@
+App {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #f4f7f8, #dfe3ee);
+  min-height: 100vh;
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.quote-card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.quote-card:hover {
+  transform: translateY(-5px);
+}
+
+.quote-text {
+  font-size: 1.5em;
+  color: #2c3e50;
+  margin: 0;
+}
+
+.quote-author {
+  font-size: 1.2em;
+  color: #7f8c8d;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #3498db;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+.message {
+  color: #e74c3c;
+  font-size: 1em;
+  margin: 10px 0;
+}
+
+.favorites {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.favorite-card {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 1em;
+  color: #2c3e50;
+}
